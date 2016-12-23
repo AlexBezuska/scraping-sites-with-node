@@ -1,0 +1,19 @@
+{
+  "name": "scraping-sites-with-node",
+  "version": "1.0.0",
+  "description": "Demonstration code for a talk I gave at JSLou (Louisville KY's JavaScript group) about using node, request, and cheerio to scrape data from websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:AlexBezuska/scraping-sites-with-node.git"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
+  }
+}
